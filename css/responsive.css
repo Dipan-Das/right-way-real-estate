@@ -183,6 +183,11 @@
 .custom-specialist::after {width: 279px;}
 
 .custom-video .modal-dialog .modal-content {height: 450px;}
+.banner-search-tabs .tab-content .tab-pane {padding: 16px 13px 15px;}
+.banner-search-tabs .search-form-b input {height: 31px;}
+.banner-search-tabs .search-form-b .form-control-wrap input {padding: 19px;}
+.banner-search-tabs .search-form-b .form-button input {height: 38px;width: 180px;font-size: 14px;}
+.banner-search-tabs .search-form-b {gap: 0 15px;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -200,11 +205,17 @@
 .custom-pad{padding: 50px 0;}
 .custom-heading h5 {padding: 5px 16px;font-size: 13px;}
 .custom-heading h3 {line-height: 45px;padding-top: 10px;font-size: 34px;}
-.custom-paragraph p {line-height: 30px;}
-.custom-button {font-size: 14px;height: 44px;}
-.custom-button-alt {height: 44px;padding: 0 24px;}   
+.custom-paragraph p {line-height: 27px;}
+.custom-paragraph p:not(:last-child) {padding-bottom: 15px;}
+.custom-button {font-size: 13px;height: 40px;}
+.custom-button-alt {height: 40px;padding: 0 22px;}   
 
-.custom-header .navbar-nav {gap: 0 20px;}
+.custom-header .navbar-nav {gap: 15px;padding: 15px 0;}
+.custom-header .navbar-nav .nav-item .nav-link.dropdown-toggle::after {position: relative;top: unset;transform: unset;}
+.custom-header .navbar-nav .nav-item .nav-link.dropdown-toggle {padding-right: 0;text-align: center;}
+.navbar-nav .dropdown-menu .dropdown-item {color: #fff;font-size: 13px;text-align: center;text-transform: uppercase;font-weight: 500;}
+.navbar-nav .dropdown-menu .dropdown-item:hover { color: #000;}
+.navbar-nav .dropdown-menu {background-color: transparent;}
 .custom-header .navbar-nav .nav-item .nav-link {font-size: 14px;}
 header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .custom-banner {margin-top: 70px;}
@@ -214,6 +225,11 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .banner-search-tabs .nav-tabs .nav-item .nav-link {width: 136px;height: 45px;font-size: 14px;}
 .custom-banner .carousel-caption h2 {font-size: 35px;}
 .custom-banner .carousel-item img {height: 420px;}
+.banner-search-tabs .tab-content .tab-pane {padding: 16px 13px 15px;}
+.banner-search-tabs .search-form-b input {height: 31px;}
+.banner-search-tabs .search-form-b .form-control-wrap input {padding: 19px;}
+.banner-search-tabs .search-form-b .form-button input {height: 38px;width: 180px;font-size: 14px;}
+.banner-search-tabs .search-form-b {gap: 0 15px;}
 
 .about-right {padding: 90px 0 0 170px;margin-left: 0px;margin-bottom: 30px;}
 .about-image-top {width: 500px;height: 455px;border-width: 12px;}
@@ -234,10 +250,12 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .property-desc {gap: 3px 0;padding: 15px 15px 25px;}
 .property-price-cat .categories span {padding: 4px 12px;font-size: 12px;}
 .property-price-cat .price span {font-size: 17px;}
-.custom-sale-button {padding-top: 35px;}
+.custom-sale-button {padding-top: 25px;text-align: center !important;}
 .custom-sale [class*="col-"]:not(:last-child) .sale-rent-card {padding-bottom: 15px;}
 
-.expertise-right .custom-heading {padding-bottom: 28px;}
+.expertise-right .custom-heading {padding-bottom: 28px;text-align: center;}
+.expertise-right .custom-heading h5 {margin: 0 auto;}
+.expertise-right .custom-list li {gap: 15px;flex-direction: column;align-items: center !important;text-align: center;}
 .custom-list li:not(:last-child) {padding-bottom: 15px;}
 .custom-list li .content {gap: 9px 0;}
 .custom-list .content p {width: 100%;}
@@ -251,7 +269,9 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .custom-specialist::after {width: 349px;background-color: #0ec6d50d;}
 .specialist-right img {width: 100%;height: 500px;object-fit: cover;}
 .specialist-left .custom-heading h3 {line-height: 45px;}
-.specialist-left .custom-heading {padding-bottom: 13px;}
+.specialist-left .custom-heading {padding-bottom: 13px;text-align: center;}
+.specialist-left .custom-heading h5 {margin: 0 auto;}
+.specialist-left .custom-paragraph p {text-align: center;}
 .specialist-left {padding-right: 0;padding-bottom: 20px;}
 .custom-team-box .team-image-wrap img {height: 500px;}
 .team-card .member-desc {height: 104px;gap: 6px 0;}
@@ -274,11 +294,12 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .custom-list .content h4 {line-height: 26px}
 .specialist-left .custom-heading h3 {line-height: 30px;}
 .specialist-right img {height: auto;}
-.custom-video {height: 470px;}
+.custom-video {height: 470px;overflow: hidden;}
 
 .custom-banner .carousel-caption h2 {font-size: 26px;}
 .banner-search-tabs .tab-content .tab-pane {padding: 16px 13px 15px;}
 .banner-search-tabs .search-form-b input {height: 31px;}
+.banner-search-tabs .search-form-b .form-control-wrap input {padding: 19px;}
 .banner-search-tabs .search-form-b .form-button input {height: 38px;width: 180px;font-size: 14px;}
 
 .banner-search-tabs .search-form-b {gap: 0 15px;}
@@ -308,6 +329,12 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .footer_col-wrap {flex-wrap: wrap;}
 .footer_col {flex: 0 0 100% !important;}
 .custom-video .modal-dialog {max-width: calc(100% - 5%);margin: 0 auto;}
-
+.custom-copyright p {font-size: 10px;}
+.custom-copyright {padding: 13px 0;}
+.footer-subs-form-wrap input[type="button"] {font-size: 13px;height: 38px;margin-top: 8px;}
+.footer-title h3 {font-size: 18px;line-height: 37px;}
+.footer-title h3::before {width: 52%;}
+.footer-subs-form-wrap input {margin-bottom: 12px;}
+.footer_socials {padding-top: 10px;}
 }
 

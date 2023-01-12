@@ -102,7 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button span {
   font-size: 20px;
 }
-
+.custom-button:hover {
+  background-color: var(--c-primary);
+  color: #fff;
+}
 /* Custom Heading */
 
 .custom-heading h5 {
@@ -359,6 +362,8 @@ header.custom-header {
 }
 .banner-search-tabs .nav-tabs {
   justify-content: start;
+  gap: 5px;
+  border: none;
 }
 .banner-search-tabs .nav-tabs .nav-item {
   margin: 0;
@@ -380,6 +385,7 @@ header.custom-header {
   gap: 0 15px;
   font-size: 15px;
   text-transform: uppercase;
+  position: relative;
 }
 .banner-search-tabs .nav-tabs .nav-item .nav-link.active  {
   background-color: #fff;
@@ -387,6 +393,20 @@ header.custom-header {
 }
 .banner-search-tabs .nav-tabs .nav-item .nav-link > * {
   margin: 0;
+
+}
+.banner-search-tabs .nav-tabs .nav-item .nav-link::before {
+  content: '';
+  position: absolute;
+  background-image: url("../images/banner-search-icon.png");
+  width: 20px;
+  height: 20px;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.banner-search-tabs .nav-tabs .nav-item .nav-link.active::before{
+  background-image: url("../images/banner-search-icon.png");
 }
 .custom-banner .carousel-caption h2 {
   font-size: 68px;
@@ -772,7 +792,7 @@ header.custom-header {
   display: inline-flex;
   width: 124px;
   height: 124px;
-  font-size: 40px;
+  font-size: 30px;
   align-items: center;
   justify-content: center;
   background-color: #fff;
