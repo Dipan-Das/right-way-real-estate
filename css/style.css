@@ -597,7 +597,6 @@ header.custom-header {
   font-size: 14px;
   color: #8c8a8a;
   font-weight: 400;
-	padding-left: 5px;
 }
 .property-desc address .location-pin {
   color: var(--c-primary);
@@ -1121,3 +1120,12 @@ header.custom-header {
   font-size: 15px;
 }
 /* Footer */
+
+/*Property-listing Inner-page*/
+.property-listing .sale-rent-card {
+  margin-bottom: 40px;
+  background-color: #f0f0f0;
+}
+.property-listing .custom-sale-button {
+  padding-top: 0px;
+}

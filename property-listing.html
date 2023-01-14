@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel Stylesheet -->
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css'>
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fdev-sb.css">
+    <!-- Responsive CSS Stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Line Awesome CDN -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <!-- Fancy Box CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <title>Property Listing - Right Realestate Properties</title>
+</head>
+
+<body>
+    <header class="custom-header py-xl-4 py-2">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-0">
+                <a class="navbar-brand ms-0 py-0" href="#"><img src="images/logo-main.webp" alt=""></a>
+                <div class="navbar-header me-0">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Sell Property</a></li>
+                                <li><a class="dropdown-item" href="#">Rent Property</a></li>
+                                <li><a class="dropdown-item" href="#">Buy Property</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Property
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Sell</a></li>
+                                <li><a class="dropdown-item" href="#">Rent</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sell
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Sell Property</a></li>
+                                <li><a class="dropdown-item" href="#">Rent Property</a></li>
+                                <li><a class="dropdown-item" href="#">Buy Property</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Rent
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Sell Property</a></li>
+                                <li><a class="dropdown-item" href="#">Rent Property</a></li>
+                                <li><a class="dropdown-item" href="#">Buy Property</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Sell Property</a></li>
+                                <li><a class="dropdown-item" href="#">Rent Property</a></li>
+                                <li><a class="dropdown-item" href="#">Buy Property</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="custom-inner-banner-2">
+        <div id="carouselInnerBannerIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/property-banner-demo-img.jpg" class="d-block w-100" alt="Property Image">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner-main.webp" class="d-block w-100" alt="Property Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner-main.webp" class="d-block w-100" alt="Property Image">
+                </div>
+            </div>
+            <div class="carousel-caption ">
+                <div class="container container-alt">
+                    <div class="row">
+                        <!-- page section -->
+                        <div class="col-12">
+                            <div class="inner-banner-2-wrap d-flex align-items-center justify-content-between">
+                                <div class="inner-banner_title">
+                                    <h1 class="title">About us</h1>
+                                </div>
+                                <div class="inner-banner_breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="property-listing.html">Property Listing</a></li>
+                                        <!--<li class="active">About Us</li>-->
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="custom-sale custom-rent property-listing custom-pad">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="custom-heading text-center">
+                        <h5>
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                            Rent
+                        </h5>
+                        <h3>Properties Available For Rent </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-1.webp" alt="rented-property-img-1"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$595</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1B Leeds Ave Northfield</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-2.webp" alt="rented-property-img-2"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$550</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">35 Parallel Avenue , Salisbury North</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-3.webp" alt="rented-property-img-3"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$600</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1/2 Apalie Drive, Modbury, SA 5092</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-1.webp"
+                                    alt="images/sale-property-img-1"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$595</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1B Leeds Ave Northfield</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-2.webp"
+                                    alt="images/sale-property-img-2"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$470</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">2 Traverse Avenue Salisbury North</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-3.webp"
+                                    alt="images/sale-property-img-3"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$550</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">291 Grenfell Road Redwood Park..</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-1.webp" alt="rented-property-img-1"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$595</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1B Leeds Ave Northfield</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-2.webp" alt="rented-property-img-2"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$550</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">35 Parallel Avenue , Salisbury North</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/rented-property-img-3.webp" alt="rented-property-img-3"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$600</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1/2 Apalie Drive, Modbury, SA 5092</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-1.webp"
+                                    alt="images/sale-property-img-1"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$595</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">1B Leeds Ave Northfield</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-2.webp"
+                                    alt="images/sale-property-img-2"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$470</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">2 Traverse Avenue Salisbury North</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sale-rent-card">
+                        <ul class="property-actions">
+                            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-exchange-alt"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                        <div class="property-image">
+                            <a href="#"><img src="./images/sale-property-img-3.webp"
+                                    alt="images/sale-property-img-3"></a>
+                        </div>
+                        <div class="property-price-cat">
+                            <ul class="categories">
+                                <li><span class="demo bg-orange">Properties</span></li>
+                                <li><span class="demo bg-secondary">FOR SALE</span></li>
+                            </ul>
+                            <div class="price">
+                                <span class="demo">$550</span>
+                            </div>
+                        </div>
+                        <div class="property-desc">
+                            <a href="#">
+                                <h4 class="title">291 Grenfell Road Redwood Park..</h4>
+                            </a>
+                            <address>
+                                <span class="location-pin">
+                                    <i class="las la-map-marker-alt"></i>
+                                </span>
+                                1421 San Pedro St, Los Angeles
+                            </address>
+                        </div>
+                        <ul class="property-details-g">
+                            <li>
+                                <span><i class="las la-bed"></i></span>
+                                1 Beds
+                            </li>
+                            <li>
+                                <span><i class="las la-bath"></i></span>
+                                3 Baths
+                            </li>
+                            <li>
+                                <span><i class="las la-th-large"></i></span>
+                                N/A sqft
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="custom-sale-button text-end">
+                        <a href="javascript:void(0)" class="custom-button custom-button_alt">
+                            See All Properties
+                            <span class="demo"><i class="las la-long-arrow-alt-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="custom-footer" style="background-image: url('./images/footer-bg.webp');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer_col-wrap d-flex align-items-start justify-content-between">
+                            <div class="footer_col">
+                                <div class="footer_content">
+                                    <div class="footer-title">
+                                        <h3>About us</h3>
+                                    </div>
+                                    <div class="footer_text">
+                                        <p class="demo">
+                                            Right Way Real Estate is a highly professional, personalised property
+                                            management agency. We help people with their real estate needs, we are also
+                                            a partner with Exp Australia,..
+                                        </p>
+                                    </div>
+                                    <ul class="footer_socials">
+                                        <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_col">
+                                <div class="footer_content">
+                                    <div class="footer-title">
+                                        <h3>Popular Searches </h3>
+                                    </div>
+                                    <ul class="footer_list">
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Apartment for Rent</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Apartment Low to hide</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Offices for Buy</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Offices for Rent</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Townhome Hide to low</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_col">
+                                <div class="footer_content">
+                                    <div class="footer-title">
+                                        <h3>quick links</h3>
+                                    </div>
+                                    <ul class="footer_list">
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Home</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Property</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Sale</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">About us</a></li>
+                                        <li class="footer_list-item"><a href="javascript:void(0)"
+                                                class="footer_link">Contact Us</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_col">
+                                <div class="footer_content">
+                                    <div class="footer-title">
+                                        <h3>Subscribe</h3>
+                                    </div>
+                                    <form class="footer_subscription-form">
+                                        <div class="footer-subs-form-wrap d-flex flex-column">
+                                            <input type="text" placeholder="Your Name">
+                                            <input type="email" placeholder="Your Email Address">
+                                            <input type="button" value="Contact Property">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="demo">Copyright © 2023. Right Way Real Estate – All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js'></script>
+    <script src="js/custom.js"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
