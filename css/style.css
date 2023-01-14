@@ -1132,3 +1132,6 @@ header.custom-header {
 .property-listing .property-desc::before {
   background-color: #fff;
 }
+.property-listing .custom-heading {
+  padding-bottom: 0px;
+}
