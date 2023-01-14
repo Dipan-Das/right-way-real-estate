@@ -338,8 +338,9 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 /*Privacy policy*/
 .privacy-policy-content .privacy-policy-list h4 {font: 600 20px var(--ff-headind);}
 .privacy-policy-content .privacy-policy-list h4 {padding: 5px 0 3px 0;}
-.privacy-policy-content {padding: 10px 20px;}
-
+.privacy-policy-content {padding: 15px 20px 0;}
+/*Disclaimer*/
+.disclaimer-content .property-paragraph {text-align: center;}
 }
 
 @media (max-width: 575.98px){
@@ -390,8 +391,9 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .inner-contact-form-wrap {padding: 40px 10px 20px;}
 
 /*Privacy Policy*/
-.privacy-policy-content {padding: 10px 15px;}
+.privacy-policy-content {padding: 15px 15px 10px;}
 .privacy-policy-content .privacy-policy-list h4 {font: 600 18px var(--ff-headind);}
 .property-custom-list li {line-height: 26px;font-size: 15px;}
+.privacy-policy-content {margin-top: 20px;}
 }
 

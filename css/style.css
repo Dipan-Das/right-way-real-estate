@@ -1236,3 +1236,7 @@ header.custom-header {
 .privacy-policy.custom-pad .custom-heading .ms-0 {
   margin: 0 auto !important;
 }
+/*Disclaimer*/
+.disclaimer.custom-pad .custom-heading {
+  text-align: center;
+}
