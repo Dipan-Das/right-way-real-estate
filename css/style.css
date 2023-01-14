@@ -1036,6 +1036,8 @@ header.custom-header {
   color: #d8d8d8;
   line-height: 30px;
   font-weight: 300;
+  margin-top: 12px;
+
 }
 .footer_socials {
   display: flex;
@@ -1084,7 +1086,7 @@ header.custom-header {
   margin: 0;
 }
 .footer_col:first-child {
-  flex: 0 0 27%;
+  flex: 0 0 35%;
 }
 .footer-subs-form-wrap input {
   height: 40px;
@@ -1118,6 +1120,16 @@ header.custom-header {
 .custom-copyright p {
   color: #dadada;
   font-size: 15px;
+}
+.footer-contact-list .footer_link::after  {
+  display: none;
+}
+.footer_link span {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--c-primary);
 }
 /* Footer */
 

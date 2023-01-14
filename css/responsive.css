@@ -287,7 +287,7 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .custom-team-box .team-image-wrap img {height: 500px;}
 .team-card .member-desc {height: 104px;gap: 6px 0;}
 .footer_col-wrap {flex-wrap: wrap;gap: 15px 0;}
-.footer_col {flex: 0 0 50% !important;}
+.footer_col {flex: 0 0 100% !important;}
 .footer_text p {padding-right: 25px;}
 .custom-team-box {margin: 3% auto 0 auto;}
 .property-image img {height: auto;}
