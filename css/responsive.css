@@ -40,6 +40,8 @@
 .custom-list li:not(:last-child) {padding-bottom: 15px;}
 .custom-list li .content {gap: 9px 0;}
 .custom-list .content p {width: 100%;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 @media (min-width: 1300px) and (max-width: 1400px){
 .container{padding: 0 1.5rem;}
@@ -279,6 +281,7 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .footer_col {flex: 0 0 50% !important;}
 .footer_text p {padding-right: 25px;}
 .custom-team-box {margin: 3% auto 0 auto;}
+.property-image img {height: auto;}
 }
 
 
@@ -336,5 +339,8 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .footer-title h3::before {width: 52%;}
 .footer-subs-form-wrap input {margin-bottom: 12px;}
 .footer_socials {padding-top: 10px;}
+
+.property-listing .sale-rent-card {margin-bottom: 20px;}
+.property-listing .custom-sale-button {padding-top: 15px;}
 }
 
