@@ -1129,3 +1129,6 @@ header.custom-header {
 .property-listing .custom-sale-button {
   padding-top: 0px;
 }
+.property-listing .property-desc::before {
+  background-color: #fff;
+}

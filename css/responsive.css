@@ -280,6 +280,8 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .footer_text p {padding-right: 25px;}
 .custom-team-box {margin: 3% auto 0 auto;}
 .property-image img {height: auto;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 
