@@ -527,6 +527,8 @@ header.custom-header {
 .property-image img {
   width: 100%;
 	border-radius: 8px 8px 0 0;
+  height: 297px;
+  object-fit: cover;
 }
 .property-price-cat {
   display: flex;
@@ -627,6 +629,14 @@ header.custom-header {
 }
 .custom-sale .custom-paragraph p {
   line-height: 25px;
+}
+.custom-sale.custom-rent .sale-rent-card .property-desc a {
+  margin: 0 0;
+  color: var(--c-black-text);
+}
+.custom-sale .sale-rent-card .property-desc a {
+  margin: 0 0;
+  color: var(--c-black-text);
 }
 /* for sale */
 .custom-rent .custom-heading {
