@@ -66,6 +66,8 @@
 .custom-list .content p {width: 100%;}
 .custom-specialist::after {width: 399px;}
 .specialist-left .custom-heading h3 {line-height: 51px;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -93,6 +95,8 @@
 .custom-list li:not(:last-child) {padding-bottom: 15px;}
 .custom-list li .content {gap: 9px 0;}
 .custom-list .content p {width: 100%;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -138,6 +142,8 @@
 .custom-list li:not(:last-child) {padding-bottom: 15px;}
 .custom-list li .content {gap: 9px 0;}
 .custom-list .content p {width: 100%;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -190,6 +196,8 @@
 .banner-search-tabs .search-form-b .form-control-wrap input {padding: 19px;}
 .banner-search-tabs .search-form-b .form-button input {height: 38px;width: 180px;font-size: 14px;}
 .banner-search-tabs .search-form-b {gap: 0 15px;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -282,6 +290,8 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .footer_text p {padding-right: 25px;}
 .custom-team-box {margin: 3% auto 0 auto;}
 .property-image img {height: auto;}
+
+.property-listing .custom-heading {padding-bottom: 0px;}
 }
 
 
