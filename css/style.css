@@ -1219,3 +1219,20 @@ header.custom-header {
   background-color: var(--c-primary);
   color: #fff;
 }
+/*Privacy policy*/
+.privacy-policy-content {
+  margin-top: 50px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+  padding: 40px;
+  border-radius: 25px;
+}
+.privacy-policy-content .privacy-policy-list h4 {
+  font: 600 24px var(--ff-headind);
+  padding: 15px 0 8px 0;
+}
+.privacy-policy.custom-pad .custom-heading {
+  text-align: center;
+}
+.privacy-policy.custom-pad .custom-heading .ms-0 {
+  margin: 0 auto !important;
+}

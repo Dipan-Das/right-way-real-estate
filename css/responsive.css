@@ -97,6 +97,9 @@
 .custom-list .content p {width: 100%;}
 
 .property-listing .custom-heading {padding-bottom: 0px;}
+/*Privacy-policy*/
+.privacy-policy-content .privacy-policy-list h4 {font: 600 22px var(--ff-headind);}
+.privacy-policy-content {margin-top: 30px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -144,6 +147,9 @@
 .custom-list .content p {width: 100%;}
 
 .property-listing .custom-heading {padding-bottom: 0px;}
+/*Privacy-policy*/
+.privacy-policy-content .privacy-policy-list h4 {font: 600 22px var(--ff-headind);}
+.privacy-policy-content {margin-top: 30px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -199,6 +205,9 @@
 
 .property-listing .custom-heading {padding-bottom: 0px;}
 .inner-contact-form-wrap {margin-top: 60px;}
+/*Privacy-policy*/
+.privacy-policy-content .privacy-policy-list h4 {font: 600 22px var(--ff-headind);}
+.privacy-policy-content {margin-top: 30px;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -295,6 +304,10 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .property-listing .custom-heading {padding-bottom: 0px;}
 .inner-contact-form-wrap {margin-top: 60px;}
 .inner-contact-form .inner-contact-form-btn input {font-size: 14px;min-width: 170px;}
+
+/*Privacy-policy*/
+.privacy-policy-content .privacy-policy-list h4 {font: 600 22px var(--ff-headind);}
+.privacy-policy-content {margin-top: 30px;}
 }
 
 
