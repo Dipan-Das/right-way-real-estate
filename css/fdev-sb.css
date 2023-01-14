@@ -563,7 +563,7 @@ gap: 45px;
 .inner-about-right .about-right-image::after {
   position: absolute;
   content: '';
-  background-color: var(--c-red);
+  background-color: var(--c-primary);
   width: 40%;
   height: 40%;
   top: -28px;
@@ -575,7 +575,7 @@ gap: 45px;
 .inner-about-right .about-right-image::before {
   position: absolute;
   content: '';
-  background-color: var(--c-red);
+  background-color: var(--c-primary);
   width: 40%;
   height: 40%;
   bottom: -28px;
