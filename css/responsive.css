@@ -321,6 +321,7 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .banner-search-tabs .search-form-b {gap: 0 15px;}
 
 .inner-contact-form-wrap {margin-top: 40px;}
+.inner-contact-form-wrap {padding: 50px 20px 30px;}
 }
 
 @media (max-width: 575.98px){
@@ -356,9 +357,9 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .property-listing .sale-rent-card {margin-bottom: 20px;}
 .property-listing .custom-sale-button {padding-top: 15px;}
 
-.inner-contact-form .inner-contact-form-btn input {font-size: 13px;min-width: 150px;}
+.inner-contact-form .inner-contact-form-btn input {font-size: 12px;min-width: 150px;}
 .inner-contact-form .checkbox-wrap {gap: 20px;}
-.inner-contact-form .checkbox .form-check-label {padding-left: 10px;font-size: 14px;}
+.inner-contact-form .checkbox .form-check-label {padding-left: 4px;font-size: 14px;}
 .inner-contact-form .checkbox .form-check-input[type="checkbox"] {width: 22px;height: 22px;}
 .inner-contact-form .inner-contact-form-btn {margin-top: 30px;}
 .inner-contact-form .checkbox .radio-checkbox-2 {margin-top: 25px;}
@@ -368,5 +369,6 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .inner-contact-form-wrap .pb-5 {padding-bottom: 2rem !important;}
 .inner-contact-form-wrap .pt-4 {padding-top: 1rem !important;}
 .inner-contact-form-wrap .pb-4 {padding-bottom: 1rem !important;}
+.inner-contact-form-wrap {padding: 40px 10px 20px;}
 }
 

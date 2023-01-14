@@ -1143,6 +1143,7 @@ header.custom-header {
   border-radius: 0;
   font: 400 15px var(--ff-primary);
   padding: 0px 0px 10px 10px;
+  background-color: transparent;
 }
 .inner-contact-form .form-control::placeholder {
   color: var(--c-light-grey);
@@ -1154,6 +1155,10 @@ header.custom-header {
 }
 .inner-contact-form-wrap {
   margin-top: 80px;
+  background-color: #fafafa;
+  padding: 70px 30px 40px;
+  border-radius: 20px;
+  border-bottom: 1px solid var(--c-light-grey);
 }
 .inner-contact-form .checkbox-wrap .radio-checkbox {
   margin: 0 0;
