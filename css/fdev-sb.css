@@ -587,6 +587,34 @@ gap: 45px;
 .inner-about-right .about-right-image img {
   border-radius: 30px 0 30px 0px;
 }
+.custom-partners .owl-prev {
+  background-color: var(--c-primary) !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: -40px;
+  right: 0;
+  margin: 0 auto;
+  bottom: -25px;
+}
+.custom-partners .owl-next {
+  background-color: var(--c-primary) !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0px;
+  right: -40px;
+  margin: 0 auto;
+  bottom: -25px;
+}
+.custom-partners .owl-nav span {
+  color: var(--c-white);
+  font-size: 25px;
+  line-height: 18px;
+  text-align: center;
+}
 /* about */
 
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -600,14 +628,28 @@ gap: 45px;
 
 }
 @media (min-width: 1400px) and (max-width: 1500px){
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;}
+  .inner-about-right .about-right-image::before {bottom: -22px;right: -8px;}
+  .inner-about-right .about-right-image::after {top: -22px;left: -8px;}
 
 }
 @media (min-width: 1300px) and (max-width: 1400px){
-
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;}
+  .inner-about-right .about-right-image img {width: 100%;object-fit: cover;}
+  .inner-about-right .about-right-image::before {bottom: -10px;right: -10px;}
+  .inner-about-right .about-right-image::after {top: -10px;left: -10px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
-
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;}
+  .inner-about-right .about-right-image img {width: 100%;object-fit: cover;}
+  .inner-about-right .about-right-image::before {bottom: -10px;right: -10px;}
+  .inner-about-right .about-right-image::after {top: -10px;left: -10px;}
+  .custom-partners .custom-heading {padding-bottom: 20px;}
+  .custom-partners-owl .item img {height: 80px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -621,6 +663,19 @@ gap: 45px;
   .property-desc-content {padding: 45px 50px;}
   .property-desc-c .custom-heading {padding-bottom: 25px;}
   /* .property-features .feature {flex: 0 0 23%;} */
+
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;}
+  .inner-about-right .about-right-image img {width: 100%;object-fit: cover;}
+  .inner-about-right .about-right-image::before {bottom: -10px;right: -10px;}
+  .inner-about-right .about-right-image::after {top: -10px;left: -10px;}
+  .count-number-and-unit.secondary-font {font-size: 20px;}
+  .count-title {font-size: 12px;}
+  .counter-content {padding: 25px 20px;}
+  .custom-partners .custom-heading {padding-bottom: 20px;}
+  .custom-partners-owl .item img {height: 80px;}
+  .inner-about-left .custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
+  .inner-about-left .custom-paragraph p {font-size: 14px;line-height: 26px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -634,6 +689,19 @@ gap: 45px;
   .property-desc-content {padding: 45px 50px;}
   .property-desc-c .custom-heading {padding-bottom: 25px;}
   /* .property-features .feature {flex: 0 0 23%;} */
+
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;}
+  .inner-about-right .about-right-image img {width: 100%;object-fit: cover;}
+  .inner-about-right .about-right-image::before {bottom: -10px;right: -10px;}
+  .inner-about-right .about-right-image::after {top: -10px;left: -10px;}
+  .count-number-and-unit.secondary-font {font-size: 20px;}
+  .count-title {font-size: 12px;}
+  .counter-content {padding: 25px 20px;}
+  .custom-partners .custom-heading {padding-bottom: 20px;}
+  .custom-partners-owl .item img {height: 70px;}
+  .inner-about-left .custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
+  .inner-about-left .custom-paragraph p {font-size: 14px;line-height: 26px;}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -649,6 +717,19 @@ gap: 45px;
   .inner-property-slider.custom-pad {padding-bottom: 40px;}
   .property-desc-content {padding: 35px 30px;}
   .property-desc-c .custom-heading {padding-bottom: 25px;}
+
+  /*About Us*/
+  .inner-about-right .about-right-image {text-align: center;margin-top: 60px;}
+  .inner-about-right .about-right-image img {width: 90%;object-fit: cover;}
+  .inner-about-right .about-right-image::before {bottom: -20px;right: 15px;}
+  .inner-about-right .about-right-image::after {top: -20px;left: 15px;}
+  .count-number-and-unit.secondary-font {font-size: 20px;}
+  .count-title {font-size: 12px;}
+  .counter-content {padding: 25px 20px;}
+  .custom-partners .custom-heading {padding-bottom: 20px;}
+  .custom-partners-owl .item img {height: 60px;}
+  .inner-about-left .custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
+  .inner-about-left .custom-paragraph p {font-size: 14px;line-height: 26px;}
 }
 
 
@@ -657,8 +738,10 @@ gap: 45px;
   .custom-inner-banner-2 .inner-banner_title h1 {font-size: 28px;}
   .custom-inner-banner-2 .inner-banner-2-wrap .inner-banner_breadcrumb .breadcrumb {padding: 10px 12px;}
   .inner-banner_breadcrumb {display: none;}
-
-
+  /*About Us*/
+  .inner-about-right .about-right-image::before {bottom: -20px;right: 5px;}
+  .inner-about-right .about-right-image::after {top: -20px;left: 5px;}
+  .inner-about-left .custom-paragraph p {font-size: 13px;line-height: 24px;}
 }
 
 @media (max-width: 575.98px){
@@ -666,9 +749,18 @@ gap: 45px;
   .custom-inner-banner-2 .inner-banner_title h1 {font-size: 26px;}
   .inner-banner_breadcrumb {display: none;}
   .custom-inner-banner-2 .carousel-item img {height: 250px;}
+
+  /*About us*/
+  .counter-content {padding: 25px 0px;}
+  .inner-about-right .about-right-image {margin-top: 30px;}
+  .inner-about-left .custom-heading .m-0 {margin: 0 auto !important;}
+  .inner-about-left {text-align: center;}
 }
 
 @media only screen and (max-width: 480.98px) {	
-
+  /*About us*/
+  .inner-about-right .about-right-image::after {top: -8px;left: -1px;border-radius: 20px 0 0px 0px;}
+  .inner-about-right .about-right-image::before {bottom: -8px;right: -1px;border-radius: 0px 0 20px 0px;}
+  .inner-about-right .about-right-image img {width: 95%;border-radius: 20px 0 20px 0px;}
 }
 
