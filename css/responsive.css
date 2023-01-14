@@ -365,7 +365,7 @@ header.custom-header {position: absolute;width: 100%;z-index: 999999;top: 0;}
 .inner-contact-form .checkbox .radio-checkbox-2 {margin-top: 25px;}
 .inner-contact-form .checkbox {margin-top: 30px;}
 .inner-contact-form .form-control {font: 400 12px var(--ff-primary);padding: 0px 0px 8px 5px;}
-.inner-contact-form-wrap {margin-top: 30px;}
+.inner-contact-form-wrap {margin-top: 20px;}
 .inner-contact-form-wrap .pb-5 {padding-bottom: 2rem !important;}
 .inner-contact-form-wrap .pt-4 {padding-top: 1rem !important;}
 .inner-contact-form-wrap .pb-4 {padding-bottom: 1rem !important;}
